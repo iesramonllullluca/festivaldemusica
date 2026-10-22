@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" 
+    rel="stylesheet" 
+    integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" 
+    crossorigin="anonymous">
+</head>
+<body>
+   <ul class="nav nav-tabs" id="myTab" role="tablist">
+  <li class="nav-item" role="presentation">
+    <button class="nav-link active" id="inicio-tab" data-bs-toggle="tab" data-bs-target="#inicio-tab-pane" type="button" role="tab" aria-controls="inicio-tab-pane" aria-selected="true">Inicio</button>
+  </li>
+  <li class="nav-item" role="presentation">
+    <button class="nav-link" id="cartelera-tab" data-bs-toggle="tab" data-bs-target="#cartelera-tab-pane" type="button" role="tab" aria-controls="cartelera-tab-pane" aria-selected="false">Cartelera</button>
+  </li>
+  <li class="nav-item" role="presentation">
+    <button class="nav-link" id="entradas-tab" data-bs-toggle="tab" data-bs-target="#entradas-tab-pane" type="button" role="tab" aria-controls="entradas-tab-pane" aria-selected="false">Entradas</button>
+  </li>
+  <li class="nav-item" role="presentation">
+    <button class="nav-link" id="horarios-tab" data-bs-toggle="tab" data-bs-target="#horarios-tab-pane" type="button" role="tab" aria-controls="horarios-tab-pane" aria-selected="false">Horarios</button>
+  </li>
+  <li class="nav-item" role="presentation">
+    <button class="nav-link" id="comollegar-tab" data-bs-toggle="tab" data-bs-target="#comollegar-tab-pane" type="button" role="tab" aria-controls="comollegar-tab-pane" aria-selected="false">Como llegar</button>
+  </li>
+</ul>
+<div class="tab-content" id="myTabContent">
+  <div class="tab-pane fade show active" id="inicio-tab-pane" role="tabpanel" aria-labelledby="inicio-tab" tabindex="0">
+    <div id="carouselExampleCaptions" class="carousel slide">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active w-100">
+      <img src="https://i.ytimg.com/vi/CdGfv3t8eBs/sddefault.jpg?sqp=-oaymwEmCIAFEOAD8quKqQMa8AEB-AH-CYAC0AWKAgwIABABGC0gMSh_MA8=&rs=AOn4CLDY_xAJ3K_K5sSOTGGaE5OFSq643Q" class="d-block w-100" style="height: 860px; object-fit: cover;">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Sala de Música Razzmatazz, Barcelona</h5>
+        <p>Si te gusta la música y te quieres enterar cuando hace gira tu artista favorito, este es tu sitio</p>
+      </div>
+    </div>
+    <div class="carousel-item w-100">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSYHien31h_gjDPT-UiXzG_YPnJrcTJid_nojVcYiW1yN7hatX76z5Ed-Ev&s=10" class="d-block w-100" style="height: 860px; object-fit: cover;" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Fitz, Palma de Mallorca</h5>
+        <p>Además, ofrecemos conciertos por todo el país</p>
+      </div>
+    </div>
+    <div class="carousel-item carousel-fluid">
+      <img src="https://images.myguide-cdn.com/milan/companies/alcatraz/large/alcatraz-0-7635786.jpg" class="d-block w-100" style="height: 860px; object-fit: cover;" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Alcatraz, Milan</h5>
+        <p>Y si España te parecia poco, ampliamos nuestra capacidad para que puedas disfrutar de tus artistas por toda Europa</p>
+      </div>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+  </div>
+  <div class="tab-pane fade" id="cartelera-tab-pane" role="tabpanel" aria-labelledby="cartelera-tab" tabindex="0">
+    <div class="container my-5">
+        
+
+        <h1 class="text-center mb-5">CARTELERA</h1>
+        <div id="carruselCartelera" class="carousel slide mb-5" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div style="width: 1150px; height: 500px;" class="carousel-item active">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQqp4XmxICLwa35XFAiwy4k2ZFAoZgWu9eMXFbW8CEItrHeyHNVSfjTmLM&s=10" class="d-block w-100 img-fluid h-100" alt="Concierto 1">
+                </div>
+                <div class="carousel-item">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSQm_BYSZaJYLQ_y69x8RJ9xd7OZy1yizS33xNAaeldAQccYEH1cChHJB7&s=10" class="d-block w-100 img-fluid" alt="Concierto 2">
+                </div>
+            </div>
+        </div>
+        <div class="row text-center">
+            <div class="col-md-4 mb-4">
+                <div class="card h-100">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8ij95oqCu1kAAj7SHEBpsxEWYVandUdkV56mcm-IBddvsBLQ7boddhOs&s=10" class="card-img-top img-fluid h-100" alt="Bad Bunny">
+                    <div class="card-body">
+                        <h5 class="card-title">Bad Bunny</h5>
+                        <p class="card-text">Viernes 24</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card h-100">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ4oE-iLDL1BzxetpTxBsj-a3LfOfsyM2Vi08UYwJCgjzwpvPfiVSdkO04&s=10" class="card-img-top img-fluid h-100" alt="Beny Jr">
+                    <div class="card-body">
+                        <h5 class="card-title">Beny Jr</h5>
+                        <p class="card-text">Sábado 25</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="https://media.vogue.mx/photos/653859e5fa8329bdb54cf85a/2:3/w_2560%2Cc_limit/young-miko.jpg" class="card-img-top img-fluid" alt="Young Miko">
+                    <div class="card-body">
+                        <h5 class="card-title">Young Miko</h5>
+                        <p class="card-text">Domingo 26</p>
+                    </div>
+                </div>
+            </div>
+          </div>
+    </div>
+  </div>
+  <div class="tab-pane fade" id="entradas-tab-pane" role="tabpanel" aria-labelledby="entradas-tab" tabindex="0">...</div>
+  <div class="tab-pane fade" id="horarios-tab-pane" role="tabpanel" aria-labelledby="horarios-tab" tabindex="0">...</div>
+   <div class="tab-pane fade" id="comollegar-tab-pane" role="tabpanel" aria-labelledby="comollegar-tab" tabindex="0">...</div>
+</div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" 
+integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" 
+crossorigin="anonymous"
+></script>
+</body>
+</html>
